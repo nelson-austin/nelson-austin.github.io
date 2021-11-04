@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-columns: 500px;
+    justify-items: center;
+}
+.section1 p {
+    font-weight: bold;
+    font-size: 20px;
+}
+#ok {
+    background-color: blue;
+    color:white;
+    display: block;
+    padding: 7px;
+    width: 70px;
+    border-radius: 7px;
+    border: solid gray;
+}
+
+#text {
+    display: inline;
+}
+.buttonblue {
+    background-color:blue;
+    color: white;
+}
+.buttongray {
+    background-color: gray;
+    color: white;
+}
