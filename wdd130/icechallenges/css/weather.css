@@ -21,7 +21,6 @@ body, html {
     transition-duration: .25s;
 }
 #weather-card:hover {
-    translate: 0 -4px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
 }
 #weather-card .top {
