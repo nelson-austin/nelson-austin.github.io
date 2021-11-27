@@ -1,0 +1,127 @@
+/* grid-area, grid-template */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* header */
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+    transition: all 500ms;
+}
+nav a:hover {
+    font-size: 30px;
+}
+header {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    grid-template-rows: 100px;
+    background-color: #9A031E;
+    padding: 10px;
+}
+header img {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    transition: all 500ms;
+}
+header img:hover {
+    transform: scale(1.15);
+}
+
+/* body */
+
+#main-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 151px);
+    column-gap: 10px;
+    row-gap: 15px;
+    margin: 15px auto;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 35px;
+}
+.landing-card a, .impact-card a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #E36414;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    transition: all 500ms;
+}
+.landing-card a:hover, .impact-card a:hover {
+    font-size: 35px;
+    background-color: #FB8B24;
+}
+.landing-image {
+    grid-column: 1/8;
+    grid-row: 1/5;
+    width: 100%;
+}
+.landing-card {
+    grid-column: 8/11;
+    grid-row: 1/5;
+    background-color: #F8F0E3;
+    text-align: center;
+}
+.impact-image {
+    grid-column: 4/11;
+    grid-row: 6/10;
+    width: 100%;
+}
+.impact-card {
+    grid-column: 1/4;
+    grid-row: 6/10;
+    background-color: #F8F0E3;
+    text-align: center;
+}
+.map-image {
+    grid-column: 1/11;
+    grid-row: 11/15;
+    width: 100%;
+    transition: all 500ms;
+}
+.map-image:hover {
+    transform: scale(1.05);
+}
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #9A031E;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+footer:nth-of-type(1) {
+    font-size: 15px;
+    text-align: center;
+}
+footer h3 a {
+    text-decoration: none;
+    color: white;
+    transition: all 500ms;
+    font-size: 25px;
+}
+footer a:hover {
+    font-size: 30px;
+}
