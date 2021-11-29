@@ -32,7 +32,6 @@ nav a:hover {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 115px 1fr;
-    grid-template-rows: px;
     background-color: #9A031E;
     padding: 10px;
 }
