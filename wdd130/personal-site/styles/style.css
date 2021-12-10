@@ -206,9 +206,9 @@ p {
 .main-pricing {
     grid-column: 6/10;
     grid-row: 3/5;
-    background-color: #F8F0E3;
+    background-color: rgba(248, 240, 227, .8);
     text-align: center;
-    padding-bottom: 30px;
+    padding: 0px 30px 50px 30px;
 }
 .main-pricing a {
     text-decoration: none;
@@ -270,11 +270,11 @@ p {
     width: 100%;
 }
 .group-discounts {
-    grid-column: 1/6;
+    grid-column: 2/6;
     grid-row: 13/15;
-    background-color: #F8F0E3;
+    background-color: rgba(248, 240, 227, .8);
     text-align: center;
-    padding-bottom: 30px;
+    padding: 0 30px 50px 30px;
 }
 .group-discounts a {
     text-decoration: none;
@@ -288,6 +288,18 @@ p {
 .group-discounts a:hover {
     font-size: 35px;
     background-color: #FB8B24;
+}
+
+/* Contactus */
+
+.contactus {
+    background-image: url('../images/morning.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 150px 0;
+    margin-top: 130px;
+    margin-bottom: 10px;
+
 }
 
 /* footer */
