@@ -113,6 +113,7 @@ p {
     grid-row: 6/10;
     background-color: #F8F0E3;
     text-align: center;
+    padding: 0 24px;
 }
 .map-image {
     grid-column: 1/11;
@@ -142,6 +143,7 @@ p {
     grid-row: 1/5;
     background-color: #F8F0E3;
     text-align: center;
+    padding: 0 30px;
 }
 .safety-card h1 {
     margin: 40px auto;
@@ -157,6 +159,7 @@ p {
     grid-row: 6/10;
     background-color: #F8F0E3;
     text-align: center;
+    padding: 0 30px;
 }
 .affordability-card {
     grid-row: 11/12;
@@ -237,7 +240,7 @@ p {
     grid-row: 10/12;
     background-color: #F8F0E3;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 0px 30px 50px 30px;
 }
 .water-card a, .rollercoaster-card a {
     text-decoration: none;
@@ -262,7 +265,7 @@ p {
     grid-row: 10/12;
     background-color: #F8F0E3;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 0px 30px 50px 30px;
 }
 .group-image {
     grid-column: 5/11;
