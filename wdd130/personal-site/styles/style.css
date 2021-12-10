@@ -173,7 +173,6 @@ p {
 }
 .affordability-card a {
     text-decoration: none;
-    text-align: center;
     background-color: #E36414;
     color: white;
     font-size: 30px;
@@ -185,6 +184,111 @@ p {
     background-color: #FB8B24;
 }
 
+/* buy tickets body */
+
+#buytickets-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 151px);
+    column-gap: 10px;
+    row-gap: 15px;
+    margin: 15px auto;
+    margin-top: 125px;
+}
+.heading {
+    grid-column: 1/11;
+    grid-row: 1;
+}
+.buy-image {
+    grid-column: 1/7;
+    grid-row: 2/6;
+    width: 100%;
+}
+.main-pricing {
+    grid-column: 6/10;
+    grid-row: 3/5;
+    background-color: #F8F0E3;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.main-pricing a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #E36414;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    transition: all 500ms;
+}
+.main-pricing a:hover {
+    font-size: 35px;
+    background-color: #FB8B24;
+}
+.sub-offer {
+    grid-column: 1/11;
+    grid-row: 6/7;
+}
+.water-image {
+    grid-column: 1/5;
+    grid-row: 7/10;
+    width: 100%;
+}
+.water-card {
+    grid-column: 1/5;
+    grid-row: 10/12;
+    background-color: #F8F0E3;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.water-card a, .rollercoaster-card a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #E36414;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    transition: all 500ms;
+}
+.water-card a:hover, .rollercoaster-card a:hover {
+    font-size: 35px;
+    background-color: #FB8B24;
+}
+.rollercoaster-image {
+    grid-column: 7/11;
+    grid-row: 7/10;
+    width: 100%;
+}
+.rollercoaster-card {
+    grid-column: 7/11;
+    grid-row: 10/12;
+    background-color: #F8F0E3;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.group-image {
+    grid-column: 5/11;
+    grid-row: 12/16;
+    width: 100%;
+}
+.group-discounts {
+    grid-column: 1/6;
+    grid-row: 13/15;
+    background-color: #F8F0E3;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.group-discounts a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #E36414;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    transition: all 500ms;
+}
+.group-discounts a:hover {
+    font-size: 35px;
+    background-color: #FB8B24;
+}
 
 /* footer */
 
