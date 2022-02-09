@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans&display=swap');
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 
+* {
+    margin: 0 auto;
+    max-width: 1600px;
+}
 /* HEADING */
 
 .top-design {
@@ -21,7 +21,7 @@
     padding-bottom: 10px;
 }
 .date-invite {
-    background-color: #161a1d;
+    background-color: #242b30;
     color: white;
     font-family: 'open sans';
 }
@@ -106,7 +106,19 @@ header h1 {
     background-color: ;
     color: ;
 }*/
-
+/* Hero Banner
+------------------------------------------------*/
+main {
+    background-color: #b1a7a6;
+    margin: 20px auto;
+}
+.join {
+    text-align: center;
+}
+.join img {
+    max-width: 600px;
+    width: 80%;
+}
 /* WEATHER *
 ------------------------------------------------- */
 
@@ -149,7 +161,7 @@ footer {
     text-align: center;
     padding: 20px 0 5px 0;
 }
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
     .topnav a:not(:first-child) {
         display: block;
     }
