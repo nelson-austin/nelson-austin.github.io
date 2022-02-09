@@ -1,0 +1,147 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* HEADING */
+
+.top-design {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+}
+#date {
+    text-align: center;
+    margin: 0 auto;
+}
+#invite {
+    padding-left: 120px;
+}
+.socials {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+.socials a img {
+    width: 30px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 20px;
+}
+.name a {
+    display: flex;
+}
+.name a img {
+    width: 100%;
+    align-self: center;
+}
+header h1 {
+    display: inline;
+    font-size: 50px;
+    width: 100%;
+}
+
+/* NAV BAR */
+
+.topnav {
+    background-color: #660708;
+    overflow: hidden;
+    width: 100%;
+}
+.topnav a:hover {
+    background-color: #400405;
+    font-size: 35px;
+}
+.topnav a {
+    color: #f5f3f4;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 500ms;
+    overflow: hidden;
+}
+.topnav a.active {
+    float: left;
+}
+.topnav a:not(:first-child) {
+    display: none;
+}
+.topnav a.icon {
+    float: right;
+    display: inline;
+}
+.topnav.responsive {
+    position: relative;
+}
+.topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+/*.topnav a:hover {
+    background-color: ;
+    color: ;
+}*/
+/*.topnav a.active {
+    background-color: ;
+    color: ;
+}*/
+
+/* WEATHER *
+------------------------------------------------- */
+
+
+ul {
+    list-style: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #660708;
+    color: #f5f3f4;
+
+}
+.logo-info {
+    text-align: center;
+
+}
+.logo-info img {
+    width: 100px;
+    margin: 0 auto;
+    align-self: center;
+    display: block;
+
+}
+.contact {
+    text-align: center;
+}
+.general {
+    text-align: center;
+}
+@media only screen and (min-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: block;
+    }
+    .topnav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        margin: 0 auto;
+    }
+    .topnav a.icon {
+        display: none;
+    }
+}
