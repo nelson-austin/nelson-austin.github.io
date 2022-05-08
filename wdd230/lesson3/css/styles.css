@@ -2,7 +2,10 @@
 
 #content {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0 50px;
+}
+img {
+    width: 20%;
 }
 nav {
     text-align: center;
@@ -22,25 +25,34 @@ nav li a {
     font-size: .95rem;
 }
 
-.heading p {
+.heading {
     font-family: "Architects Daughter";
 }
-.paragraph p {
+.paragraph {
     font-family: "Open Sans";
 }
 .accent p {
     background-color: #B1A7A6;
 }
-.primary p:nth-child(1) {
+.first {
     background-color: #D3D3D3;
+    padding: 10px;
 }
-.primary p:nth-child(2) {
+.second {
     background-color: #660708;
+    color: white;
+    padding: 10px;
 }
-.primary p:nth-child(3) {
+.third {
     background-color: #161A1D;
+    color: white;
+    padding: 10px;
 }
-@media only screen and (min-width: 600px) {
+.accent {
+    background-color: #B1A7A6;
+    padding: 10px;
+}
+@media only screen and (min-width: 700px) {
     nav ul {
         display: flex;
     }
