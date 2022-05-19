@@ -9,11 +9,12 @@ button.onclick = function() {
     const chapter = document.createElement('li');
     const chapterText = document.createElement('span');
     const deleteButton = document.createElement('button');
+    deleteButton.classList.add('delete');
 
     chapter.appendChild(chapterText);
     chapterText.textContent = newChapter;
     chapter.appendChild(deleteButton);
-    deleteButton.textContent = 'Delete';
+    deleteButton.textContent = 'X';
     
     list.appendChild(chapter);
 
