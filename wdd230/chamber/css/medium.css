@@ -14,4 +14,10 @@
     .topnav a.icon {
         display: none;
     }
+    main {
+        display: grid;
+    }
+    main:nth-child(1) {
+        background-color: red;
+    }
 }

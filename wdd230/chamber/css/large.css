@@ -16,4 +16,7 @@
     .general {
         grid-column: 1/4;
     }
+    main {
+        display: grid;
+    }
 }
