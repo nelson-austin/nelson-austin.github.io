@@ -109,6 +109,7 @@ header h1 {
 main {
     background-color: #b1a7a6;
     margin: 20px auto;
+    display: grid;
 }
 .join {
     display: grid;
