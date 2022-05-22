@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px) and (max-width: 849px) {
+@media only screen and (min-width: 700px) and (max-width: 999px) {
     .topnav a:not(:first-child) {
         display: block;
     }
