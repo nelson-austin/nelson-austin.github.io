@@ -1,4 +1,19 @@
 @media only screen and (min-width: 850px) {
+    .topnav a:not(:first-child) {
+        display: block;
+    }
+    .topnav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        margin: 0 auto;
+    }
+    .topnav a.icon {
+        display: none;
+    }
     footer {
         display: grid;
         grid-template-columns: 200px 1fr 1fr;  
@@ -21,7 +36,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
     }
-    .hero-banner, .event, .weather, .news, .spotlighta, .spotlightb{
+    .hero-banner, .event, .ajax-section, .news, .spotlighta, .spotlightb{
         text-align: center;
     }
     .hero-banner {
@@ -32,12 +47,12 @@
         grid-row: 1/2;
         grid-column: 1/2;
     }
-    .weather {
+    .ajax-section {
         grid-row: 2/3;
         grid-column: 1/2;
     }    
     .news {
-        grid-column: 1/5;
+        grid-column: 1/4;
         grid-row: 3/4;
     }
     .spotlighta {

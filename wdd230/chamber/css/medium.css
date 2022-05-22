@@ -19,7 +19,7 @@
         grid-template-columns: 1fr 1fr;
         width: 100%;
     }
-    .hero-banner, .event, .weather, .news, .spotlighta, .spotlightb{
+    .hero-banner, .event, .ajax-section, .news, .spotlighta, .spotlightb{
         text-align: center;
     }
     .hero-banner {
