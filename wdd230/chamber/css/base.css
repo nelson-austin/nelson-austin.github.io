@@ -3,6 +3,8 @@
 * {
     margin: 0 auto;
     max-width: 1600px;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* HEADING */
 
@@ -51,57 +53,9 @@ header h1 {
 
 /* NAV BAR */
 
-.topnav {
-    background-color: #660708;
-    overflow: hidden;
-    width: 100%;
-    font-family: 'architects daughter';
-}
-.topnav a:hover {
-    background-color: #400405;
-    font-size: 35px;
-}
-.topnav a {
-    color: #f5f3f4;
-    text-align: center;
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    transition: all 500ms;
-    overflow: hidden;
-}
-.topnav a.active {
-    float: left;
-}
-.topnav a:not(:first-child) {
-    display: none;
-}
-.topnav a.icon {
-    float: right;
-    display: inline;
-}
-.topnav.responsive {
-    position: relative;
-}
-.topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-}
-/*.topnav a:hover {
-    background-color: ;
-    color: ;
-}*/
-/*.topnav a.active {
-    background-color: ;
-    color: ;
-}*/
+
+
+
 /* Hero Banner
 ------------------------------------------------*/
 main {
@@ -111,6 +65,7 @@ main {
 }
 .hero-banner img {
     max-width: 100%;
+    overflow: hidden;
 }
 .join-invite {
     background-color: #161a1d;
@@ -123,7 +78,7 @@ main {
     top: -100px;
 }
 .join-invite:hover {
-    font-size: 22px;
+    font-weight: bolder;
 }
 /* WEATHER *
 ------------------------------------------------- */
@@ -166,7 +121,7 @@ footer {
     transition: all 500ms;
 }
 .contact a:hover {
-    font-size: 18px;
+    font-weight: bolder;
 }
 .general {
     text-align: center;

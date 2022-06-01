@@ -1,12 +1,3 @@
-function menuFeatures() {
-    let x = document.getElementById('myTopnav');
-    if (x.className === 'topnav') {
-        x.className += " responsive";
-    }  else {
-        x.className = "topnav";
-    }
-}
-
 const now = new Date();
 const date = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 
