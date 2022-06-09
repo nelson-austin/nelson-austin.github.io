@@ -1,5 +1,6 @@
 * {
     margin: 10px auto;
+    font-family: Ubuntu, sans-serif;
 }
 th, td {
     border: .5px solid gray;
@@ -29,4 +30,7 @@ tfoot td {
 }
 .accent {
     background-color: #628ca6;
+}
+.italic {
+    font-style: italic;
 }
