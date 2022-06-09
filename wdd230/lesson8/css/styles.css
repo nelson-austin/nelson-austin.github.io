@@ -1,0 +1,32 @@
+* {
+    margin: 10px auto;
+}
+th, td {
+    border: .5px solid gray;
+    padding: .25em .5em;
+    text-align: center;
+}
+thead tr:nth-child(1) {
+    background-color: #7fb9c2;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+thead tr:nth-child(2) {
+    background-color: #628ca6;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px rgba(98, 140, 166, .8);
+}
+tr:nth-child(odd){
+    background-color: #eee;
+}
+tfoot td {
+    background-color: #7fb9c2;
+    font-size: .8rem;
+}
+.accent {
+    background-color: #628ca6;
+}
