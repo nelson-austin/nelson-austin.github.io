@@ -15,7 +15,7 @@
     .navbar .nav-container a:hover {
         font-weight: bolder;
     }
-    .menu-items {
+    .menu-items ul {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }

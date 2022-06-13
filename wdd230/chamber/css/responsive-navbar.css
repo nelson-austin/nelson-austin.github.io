@@ -89,6 +89,10 @@
         margin-bottom: 1.2rem;
         font-size: 1.5rem;
         font-weight: 500;
+        z-index: 99;
+    }
+    .navbar .menu-items {
+        z-index: 99;
     }
     .logo {
         position: absolute;
