@@ -134,8 +134,8 @@ footer {
 picture img {
     display: block;
     margin: 20px auto;
-    width: 100%;
     max-width: 80%;
+    object-fit: contain;
 }
 .brighten p {
     max-width: 80%;

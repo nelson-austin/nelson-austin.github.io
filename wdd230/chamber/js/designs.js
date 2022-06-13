@@ -57,7 +57,6 @@ images.forEach(image => {
 
 // Local Storage
 // initialize display elements
-const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
 
 // get the stored value in localStorage
@@ -70,12 +69,6 @@ if (lastVisit !== 0) {
 	visitsDisplay.textContent = `This is your first visit!`;
 }
 
-// increment the number of visits.
-
-// how should this be improved?
-
 // store the new number of visits value
 localStorage.setItem("visits-ls", Date.now());
 
-// show todays date.
-todayDisplay.textContent = Date.now();
