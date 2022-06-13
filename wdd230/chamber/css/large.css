@@ -39,10 +39,10 @@
     .contact {
         text-align: left;
     }
-    .general {
+    .general, .visits {
         grid-column: 1/4;
     }
-    main {
+    #index {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
@@ -75,4 +75,16 @@
         grid-column: 4/5;
     }
 
+    .brighten img {
+        -webkit-filter: brightness(50%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+
+    }
+    .brighten img:hover {
+        -webkit-filter: brightness(100%);
+    }
 }

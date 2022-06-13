@@ -61,7 +61,6 @@ header h1 {
 main {
     background-color: #b1a7a6;
     margin: 20px auto;
-    display: grid;
 }
 .hero-banner img {
     max-width: 100%;
@@ -126,5 +125,26 @@ footer {
 .general {
     text-align: center;
     padding: 20px 0 5px 0;
+}
+
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+picture img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 80%;
+}
+.brighten p {
+    max-width: 80%;
+}
+picture img[data-src] {
+    filter: blur(.2em);
+}
+picture img {
+    filter: blur(0em);
+    transition: filter 500ms;
 }
 
