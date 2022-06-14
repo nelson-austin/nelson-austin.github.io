@@ -132,7 +132,7 @@ footer {
     text-align: center;
     box-sizing: border-box;
 }
-picture img {
+.brighten picture img {
     display: block;
     margin: 20px auto;
     max-width: 80%;
@@ -141,10 +141,10 @@ picture img {
 .brighten p {
     max-width: 80%;
 }
-picture img[data-src] {
+.brighten picture img[data-src] {
     filter: blur(.2em);
 }
-picture img {
+.brighten picture img {
     filter: blur(0em);
     transition: filter 500ms;
 }
