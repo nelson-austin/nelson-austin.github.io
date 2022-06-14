@@ -75,7 +75,7 @@
         grid-column: 4/5;
     }
 
-    .brighten img {
+    .brighten picture img {
         -webkit-filter: brightness(50%);
         -webkit-transition: all 1s ease;
         -moz-transition: all 1s ease;
@@ -84,7 +84,7 @@
         transition: all 1s ease;
 
     }
-    .brighten img:hover {
+    .brighten picture img:hover {
         -webkit-filter: brightness(100%);
     }
 }

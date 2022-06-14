@@ -110,6 +110,7 @@ footer {
     margin: 0 auto;
     align-self: center;
     display: block;
+    height: auto;
 
 }
 .contact {
