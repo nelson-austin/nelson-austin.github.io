@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Valley Chamber of Commerce</title>
+    <meta name="description" content="The website for The Phoenix Valley Chamber of Commerce">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/responsive-navbar.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="date-invite">
+                <p id="date"></p>
+                <p id="invite"></p>
+            </div>
+            <section class="top-design">
+                <section class="socials">
+                    <a href="facebook.com" target="_blank"><img src="images/facebook.png" alt="fb icon" width = 30 height = 30></a>
+                    <a href="twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter icon" width = 30 height = 30></a>
+                    <a href="instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram icon" width = 30 height = 30></a>
+                </section>
+                <section class="name">
+                    <a href="index.html">
+                        <img src="images/site-logo.webp" alt="Site Logo" width = 100 height = 71>
+                    </a>
+                    <h1>Phoenix Valley Chamber of Commerce</h1>
+                </section>
+            </section>
+            <nav>
+                <div class="navbar">
+                    <div class="nav-container">
+                        <input class="checkbox" type="checkbox">
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+                        <div class="logo">
+                            <h1>Join</h1>
+                        </div>
+                        <div class="menu-items">
+                            <ul><li><a href="index.html">Home</a></li>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li><a href="#">Directory</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="#">Contact</a></li></ul>
+                        </div>
+                    </div>              
+                </div>
+            </nav>
+        </header>
+        <main>
+            <form method="get" action="thankyou.html">
+                <label for="firstname" class="required">First Name:</label>
+                <span><input type="text" name="firstname" id="firstname" autofocus required></span>
+
+                <label for="lastname" class="required">Last Name:</label>
+                <span><input type="text" name="lastname" id="lastname" required></span>
+
+                <label for="businesstitle" class="required">Business Position Title:</label>
+                <span><input type="text" name="businesstitle" id="businesstitle" pattern="\D|\s{7+}"></span>
+                
+                <label for="email" class="required">Email:</label>
+                <span><input type="email" name="email" id="email" placeholder="Example: john@gmail.com" required></span>
+                
+                <label for="number" class="required">Phone Number:</label>
+                <span><input type="tel" name="number" id="number" required></span>
+
+                <label for="businessname" class="required">Business Name</label>
+                <span><input type="text" name="businessname" id="businessname" required></span>
+
+                <label>
+                    <span><input type="radio" name="status" value="nonprofit">
+                    NP Membership is for non profit organizations and there is no fee</span>
+                </label>
+                <label>
+                    <span><input type="radio" name="status" value="bronze">
+                    Bronze Membership</span>
+                </label>
+                <label>
+                    <input type="radio" name="status" value="silver">
+                    Silver Membership
+                </label>
+                <label>
+                    <input type="radio" name="status" value="gold">
+                    Gold Membership
+                </label>
+
+                <label for="description">Business Description:</label> 
+                <span><input type="textarea" name="description" id="description"></span>
+
+                <input type="hidden" name="formload" value="<?php echo date('D M j G:i:s T Y'); ?>" readonly="readonly">
+
+
+                <input type="submit" value="Sign Up">
+                
+                <!--
+                <label for="major">Major:</label>
+                <input type="text" name="major" id="major" pattern="Accounting|CS|WDD|SWE">
+
+                <label for="color">Favorite color:</label>
+                <input list="color-list" name="color" id="color">
+                <datalist id="color-list">
+                    <option value="Red">
+                    <option value="Green">
+                    <option value="Blue">
+                </datalist>
+                
+                <label>
+                    <input type="radio" name="status" value="freshman">
+                    Freshman
+                </label>
+                <label>
+                    <input type="radio" name="status" value="sophomore">
+                    Sophomore
+                </label>
+                <label>
+                    <input type="radio" name="status" value="junior">
+                    Junior
+                </label>
+                <label>
+                    <input type="radio" name="status" value="senior">
+                    Senior
+                </label>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="\d{3}-\d{3}-\d{4}">
+
+                <label for="example" class="required">Example</label>
+                <input type="text" name="example" id="example" pattern="\w{5+}" required>
+
+                <input type="submit" value="Sign Up">
+            -->
+            </form>
+        </main>
+        <footer>
+            <section class="logo-footer">
+                <img src="images/site-logo.webp" alt="Site Logo" width = 100 height = 71>
+            </section>
+            <section class="logo-info">
+                <h4>Phoenix Valley Chamber of Commerce</h4>
+                <p>234 Stony Reach</p>
+                <p>Phoenix, Arizona 85007</p>
+            </section>
+            <section class="contact">
+                <p>info@phoenixvalleychamber.org</p>
+                <p>(602) 359-2800</p>
+                <a href="maps.google.com">📍Location Map</a>
+            </section>
+            <section class="general">
+                <span>&copy;<span id="year"></span> Phoenix Valley Chamber of Commerce | </span>
+                <span>Austin Nelson | </span>
+                <span>WDD230 Project | </span>
+                <span id="modified"></span>
+            </section>
+            <p class="visits"></p>
+        </footer>
+    </div>
+    <script src="js/designs.js"></script>
+    <script src="js/weather.js"></script>
+
+</body>
+</html>

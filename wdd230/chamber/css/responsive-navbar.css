@@ -21,7 +21,7 @@
     .navbar .nav-container li {
         list-style: none;
     }
-    .navbar .nav-container a {
+    .navbar .nav-container li a {
         text-decoration: none;
         color: #f5f3f4;
         text-shadow: .5px .5px #000000;
