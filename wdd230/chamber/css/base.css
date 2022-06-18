@@ -170,7 +170,7 @@ span {
     overflow: hidden;
     padding: 0 4px 0 6px;
 }
-input { /**/
+input {
     width: 100%;
     margin-top: 10px;
 }
@@ -178,7 +178,6 @@ input { /**/
     border: 1px solid #ccc;
     padding: 1em;
     max-width: 600px;
-    max-width: 90%;
 }
 form label.required::after {
     content: " *";
