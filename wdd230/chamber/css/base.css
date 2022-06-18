@@ -150,16 +150,46 @@ footer {
 /* JOIN PAGE 
 ------------------------------------------*/
 
-label {
+.test label {
     float: left;
+    display: block;
     margin-top: 10px;
+}
+.membership {
+    padding-bottom: 20px;
+}
+.membership label {
+    display: block;
+    margin-top: 10px;
+}
+.membership p {
+    padding: 20px 0 0 0;
 }
 span {
     display: block;
     overflow: hidden;
     padding: 0 4px 0 6px;
 }
-input {
+input { /**/
     width: 100%;
     margin-top: 10px;
+}
+#join {
+    border: 1px solid #ccc;
+    padding: 1em;
+    max-width: 600px;
+    max-width: 90%;
+}
+form label.required::after {
+    content: " *";
+    color: red;
+}
+label input {
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
 }

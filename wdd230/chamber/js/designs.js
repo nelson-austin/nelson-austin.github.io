@@ -23,7 +23,7 @@ let y = document.lastModified;
 document.getElementById('modified').innerHTML = `Last Updated: ${y}`;
 
 
-// Lazy loading
+// DISCOVER PAGE - Lazy loading
 const images = document.querySelectorAll('[data-src]');
 
 function preLoadImage(img) {
@@ -55,20 +55,18 @@ images.forEach(image => {
 })
 
 
-// Local Storage
-// initialize display elements
+// DISCOVER PAGE - Local Storage
 const visitsDisplay = document.querySelector(".visits");
 
-// get the stored value in localStorage
 let lastVisit = Number(window.localStorage.getItem("visits-ls"));
 
-// determine if this is the first visit or display the number of visits.
 if (lastVisit !== 0) {
 	visitsDisplay.textContent = `Last visit: ${Math.floor((Date.now() - lastVisit) / 86400000)} days ago`;
 } else {
 	visitsDisplay.textContent = `This is your first visit!`;
 }
 
-// store the new number of visits value
 localStorage.setItem("visits-ls", Date.now());
 
+// JOIN PAGE
+document.getElementById('formdate').value = date;

@@ -55,87 +55,54 @@
             </nav>
         </header>
         <main>
-            <form method="get" action="thankyou.html">
-                <label for="firstname" class="required">First Name:</label>
-                <span><input type="text" name="firstname" id="firstname" autofocus required></span>
+            <form method="get" action="thankyou.html" id="join">
+                <div class="test">
+                    <label for="firstname" class="required">First Name:</label>
+                    <span><input type="text" name="firstname" id="firstname" autofocus required></span>
 
-                <label for="lastname" class="required">Last Name:</label>
-                <span><input type="text" name="lastname" id="lastname" required></span>
+                    <label for="lastname" class="required">Last Name:</label>
+                    <span><input type="text" name="lastname" id="lastname" required></span>
 
-                <label for="businesstitle" class="required">Business Position Title:</label>
-                <span><input type="text" name="businesstitle" id="businesstitle" pattern="\D|\s{7+}"></span>
-                
-                <label for="email" class="required">Email:</label>
-                <span><input type="email" name="email" id="email" placeholder="Example: john@gmail.com" required></span>
-                
-                <label for="number" class="required">Phone Number:</label>
-                <span><input type="tel" name="number" id="number" required></span>
+                    <label for="businesstitle" class="required">Business Position Title:</label>
+                    <span><input type="text" name="businesstitle" id="businesstitle" pattern="\D{7,}"></span>
+                    
+                    <label for="email" class="required">Email:</label>
+                    <span><input type="email" name="email" id="email" placeholder="Example: john@gmail.com" required></span>
+                    
+                    <label for="number" class="required">Phone Number:</label>
+                    <span><input type="tel" name="number" id="number" required></span>
 
-                <label for="businessname" class="required">Business Name</label>
-                <span><input type="text" name="businessname" id="businessname" required></span>
+                    <label for="businessname" class="required">Business Name</label>
+                    <span><input type="text" name="businessname" id="businessname" required></span>
+                </div>    
+                <div class="membership">
+                    <p>Membership Level:</p>
+                    <label>
+                        <input type="radio" name="status" value="nonprofit">
+                        NP Membership is for non profit organizations (no fee)
+                    </label>
+                    <label>
+                        <input type="radio" name="status" value="bronze">
+                        Bronze Membership
+                    </label>
+                    <label>
+                        <input type="radio" name="status" value="silver">
+                        Silver Membership
+                    </label>
+                    <label>
+                        <input type="radio" name="status" value="gold">
+                        Gold Membership
+                    </label>
+                </div>
+                <label for="description" class="textarealabel">Business Description:</label> 
+                <textarea name="description" id="description" rows="3"></textarea>
 
-                <label>
-                    <span><input type="radio" name="status" value="nonprofit">
-                    NP Membership is for non profit organizations and there is no fee</span>
-                </label>
-                <label>
-                    <span><input type="radio" name="status" value="bronze">
-                    Bronze Membership</span>
-                </label>
-                <label>
-                    <input type="radio" name="status" value="silver">
-                    Silver Membership
-                </label>
-                <label>
-                    <input type="radio" name="status" value="gold">
-                    Gold Membership
-                </label>
+                <input type="hidden" name="formdate" id="formdate">
 
-                <label for="description">Business Description:</label> 
-                <span><input type="textarea" name="description" id="description"></span>
-
-                <input type="hidden" name="formload" value="<?php echo date('D M j G:i:s T Y'); ?>" readonly="readonly">
-
-
-                <input type="submit" value="Sign Up">
-                
-                <!--
-                <label for="major">Major:</label>
-                <input type="text" name="major" id="major" pattern="Accounting|CS|WDD|SWE">
-
-                <label for="color">Favorite color:</label>
-                <input list="color-list" name="color" id="color">
-                <datalist id="color-list">
-                    <option value="Red">
-                    <option value="Green">
-                    <option value="Blue">
-                </datalist>
-                
-                <label>
-                    <input type="radio" name="status" value="freshman">
-                    Freshman
-                </label>
-                <label>
-                    <input type="radio" name="status" value="sophomore">
-                    Sophomore
-                </label>
-                <label>
-                    <input type="radio" name="status" value="junior">
-                    Junior
-                </label>
-                <label>
-                    <input type="radio" name="status" value="senior">
-                    Senior
-                </label>
-                
-                <label for="phone">Phone Number:</label>
-                <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="\d{3}-\d{3}-\d{4}">
-
-                <label for="example" class="required">Example</label>
-                <input type="text" name="example" id="example" pattern="\w{5+}" required>
 
                 <input type="submit" value="Sign Up">
-            -->
+                
+                
             </form>
         </main>
         <footer>
@@ -162,7 +129,5 @@
         </footer>
     </div>
     <script src="js/designs.js"></script>
-    <script src="js/weather.js"></script>
-
 </body>
 </html>

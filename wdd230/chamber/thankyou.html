@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Success</title>
+    <title>Phoenix Valley Chamber of Commerce</title>
+    <meta name="description" content="The website for The Phoenix Valley Chamber of Commerce">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/responsive-navbar.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Thank you for submitting!</h1>
+    <div id="content">
+        <header>
+            <div class="date-invite">
+                <p id="date"></p>
+                <p id="invite"></p>
+            </div>
+            <section class="top-design">
+                <section class="socials">
+                    <a href="facebook.com" target="_blank"><img src="images/facebook.png" alt="fb icon" width = 30 height = 30></a>
+                    <a href="twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter icon" width = 30 height = 30></a>
+                    <a href="instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram icon" width = 30 height = 30></a>
+                </section>
+                <section class="name">
+                    <a href="index.html">
+                        <img src="images/site-logo.webp" alt="Site Logo" width = 100 height = 71>
+                    </a>
+                    <h1>Phoenix Valley Chamber of Commerce</h1>
+                </section>
+            </section>
+            <nav>
+                <div class="navbar">
+                    <div class="nav-container">
+                        <input class="checkbox" type="checkbox">
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+                        <div class="logo">
+                            <h1>Success!</h1>
+                        </div>
+                        <div class="menu-items">
+                            <ul><li><a href="index.html">Home</a></li>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li><a href="#">Directory</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="#">Contact</a></li></ul>
+                        </div>
+                    </div>              
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>Your form has been successfully submitted! Thank you!</h1>
+        </main>
+        <footer>
+            <section class="logo-footer">
+                <img src="images/site-logo.webp" alt="Site Logo" width = 100 height = 71>
+            </section>
+            <section class="logo-info">
+                <h4>Phoenix Valley Chamber of Commerce</h4>
+                <p>234 Stony Reach</p>
+                <p>Phoenix, Arizona 85007</p>
+            </section>
+            <section class="contact">
+                <p>info@phoenixvalleychamber.org</p>
+                <p>(602) 359-2800</p>
+                <a href="maps.google.com">📍Location Map</a>
+            </section>
+            <section class="general">
+                <span>&copy;<span id="year"></span> Phoenix Valley Chamber of Commerce | </span>
+                <span>Austin Nelson | </span>
+                <span>WDD230 Project | </span>
+                <span id="modified"></span>
+            </section>
+            <p class="visits"></p>
+        </footer>
+    </div>
+    <script src="js/designs.js"></script>
 </body>
 </html>
