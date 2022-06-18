@@ -1,4 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-size: 16px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
 }
+header, main, footer {
+    margin: 1rem;
+    position: relative;
+}
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+    overflow: hidden;
+  }
+  footer {
+    text-align: center;
+  }
