@@ -1,0 +1,77 @@
+{
+    "businesses": [
+        {
+            "name": "Delta Air Lines",
+            "address": "3400 E Sky Harbor Blvd, Phoenix, AZ",
+            "phonenumber": "800-221-1212",
+            "websiteurl": "https://www.delta.com/",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "Capitol One Financial",
+            "address": "2140 E Baseline Rd, Phoenix, AZ",
+            "phonenumber": "800-262-5689",
+            "websiteurl": "https://www.capitalone.com/",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "Daniels Nicolson Insurance Agency",
+            "address": "4411 N 19th Ave, Phoenix AZ",
+            "phonenumber": "602-806-9785",
+            "websiteurl": "https://www.danielsnicolson.com/",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "General Electric Repair",
+            "address": "606 N 4th Ave, Phoenix, AZ",
+            "phonenumber": "602-755-6398",
+            "websiteurl": "https://ge-monogram-inc-repair.com/ge-monogram-appliance-repair-phoenix/",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "Charles Schwab",
+            "address": "2423 E Lincoln Dr, Phoenix, AZ",
+            "phonenumber": "800-435-4000",
+            "websiteurl": "https://www.schwab.com/",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "Nike",
+            "address": "4250 W Anthem Way Suite 375, Phoenix, AZ",
+            "phonenumber": "623-465-0111",
+            "websiteurl": "https://www.nike.com/retail/s/nike-factory-store-phoenix?cp=84620811901_seo_&y_source=1_NTQzNzUxNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "Target",
+            "address": "5715 N 19th Ave, Phoenix, AZ",
+            "phonenumber": "602-308-3604",
+            "websiteurl": "https://www.target.com/sl/phoenix-spectrum/2354",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "Verizon Communications",
+            "address": "4811 N 16th St Ste 101, Phoenix, AZ",
+            "phonenumber": "800-880-1077",
+            "websiteurl": "https://www.verizon.com/stores/details/arizona/phoenix/camelback-337989/?INTCMP=INT-LOS-NON-EN-MAKEAPPT-06212015-1LOS1-RE",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        },
+        {
+            "name": "The North Face",
+            "address": "2110 E Camelback, Phoenix, AZ",
+            "phonenumber": "602-955-3939",
+            "websiteurl": "https://www.thenorthface.com/",
+            "icon": "https://via.placeholder.com/300x400/000000/?text=placeholder",
+            "membershiplevel": "N/A"
+        }
+    ]
+}
+
