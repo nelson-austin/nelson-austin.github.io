@@ -6,7 +6,7 @@
             "phonenumber": "800-221-1212",
             "websiteurl": "https://www.delta.com/",
             "icon": "images/delta-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Capitol One Financial",
@@ -14,7 +14,7 @@
             "phonenumber": "800-262-5689",
             "websiteurl": "https://www.capitalone.com/",
             "icon": "images/capitalone-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Bronze"
         },
         {
             "name": "Daniels Nicolson Insurance Agency",
@@ -22,7 +22,7 @@
             "phonenumber": "602-806-9785",
             "websiteurl": "https://www.danielsnicolson.com/",
             "icon": "images/insurance.jpg",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Bronze"
         },
         {
             "name": "General Electric Repair",
@@ -30,7 +30,7 @@
             "phonenumber": "602-755-6398",
             "websiteurl": "https://ge-monogram-inc-repair.com/ge-monogram-appliance-repair-phoenix/",
             "icon": "images/ge-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Charles Schwab",
@@ -38,7 +38,7 @@
             "phonenumber": "800-435-4000",
             "websiteurl": "https://www.schwab.com/",
             "icon": "images/charles-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Gold"
         },
         {
             "name": "Nike",
@@ -46,7 +46,7 @@
             "phonenumber": "623-465-0111",
             "websiteurl": "https://www.nike.com/retail/s/nike-factory-store-phoenix?cp=84620811901_seo_&y_source=1_NTQzNzUxNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
             "icon": "images/nike-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Target",
@@ -54,7 +54,7 @@
             "phonenumber": "602-308-3604",
             "websiteurl": "https://www.target.com/sl/phoenix-spectrum/2354",
             "icon": "images/target-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Verizon Communications",
@@ -62,7 +62,7 @@
             "phonenumber": "800-880-1077",
             "websiteurl": "https://www.verizon.com/stores/details/arizona/phoenix/camelback-337989/?INTCMP=INT-LOS-NON-EN-MAKEAPPT-06212015-1LOS1-RE",
             "icon": "images/verizon-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Gold"
         },
         {
             "name": "The North Face",
@@ -70,7 +70,7 @@
             "phonenumber": "602-955-3939",
             "websiteurl": "https://www.thenorthface.com/",
             "icon": "images/northface-logo.png",
-            "membershiplevel": "N/A"
+            "membershiplevel": "Bronze"
         }
     ]
 }

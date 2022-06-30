@@ -1,47 +1,51 @@
-@media only screen and (max-width: 700px) {
-    .cards {
-        margin: 20px;
-    }
-    .cards section div a img {
-        display: none;
-    }
-    .tinyurl {
-        text-decoration: none;
-        transition: transform .4s;
-    }
-    .tinyurl:hover {
-        transform: scale(1.2);
-    }
+.list {
+    margin: 20px;
+}
+.list section div a img {
+    display: none;
+}
+.list .tinyurl {
+    text-decoration: none;
+    display: block;
 }
 
-@media only screen and (min-width: 700px) {
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        grid-template-rows: 210px 380px 350px;
-        grid-gap: 10px;
-        align-items: center;
-    }
-    .tinyurl {
-        display: none;
-    }
-    .cards section h2 {
-        display: none;
-    }
-    .cards section div {
-        text-align: center;
-    }
-    .cards section div a img {
-        width: 80%;
-        transition: transform .4s;
-    }
-    .cards section div a img:hover {
-        transform: scale(1.2);
-    }
-    .cards section {
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: #eee;
-        padding: 25px;
-        text-align: center;
-    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: 210px 380px 350px;
+    grid-gap: 10px;
+    align-items: center;
+}
+.grid .tinyurl {
+    display: none;
+}
+.grid section h2 {
+    display: none;
+}
+.grid section div {
+    text-align: center;
+}
+.grid section div a img {
+    width: 80%;
+    transition: transform .4s;
+}
+.grid section div a img:hover {
+    transform: scale(1.2);
+}
+.grid section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+    padding: 25px;
+    text-align: center;
+}
+
+.menu button {
+	padding: .7rem;
+}
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	text-align: center;
 }
