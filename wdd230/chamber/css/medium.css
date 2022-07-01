@@ -42,7 +42,9 @@
     .spotlighta, .spotlightb {
         grid-row: 3/4;
     }
-
+    .brighten {
+        max-width: 600px;
+    }
     .brighten picture img {
         -webkit-filter: brightness(50%);
         -webkit-transition: all 1s ease;

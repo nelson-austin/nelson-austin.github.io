@@ -60,7 +60,7 @@ header h1 {
 /* Hero Banner
 ------------------------------------------------*/
 main {
-    background-color: #b1a7a6;
+    background-color: #fff3d7;
     margin: 20px auto;
 }
 .hero-banner img {
@@ -69,7 +69,6 @@ main {
     height: auto;
 }
 .join-invite {
-    background-color: #161a1d;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -135,11 +134,15 @@ footer {
 .brighten picture img {
     display: block;
     margin: 20px auto;
-    max-width: 80%;
     height: auto;
+    max-width: 100%;
+}
+.brighten {
+    max-width: 80%;
+    padding: 20px 0 0 0;
 }
 .brighten p {
-    max-width: 80%;
+    padding-bottom: 50px;
 }
 .brighten picture img[data-src] {
     filter: blur(.2em);
