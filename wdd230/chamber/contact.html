@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phoenix Valley Chamber of Commerce</title>
+    <title>Contact | Phoenix Valley Chamber of Commerce</title>
     <meta name="description" content="The website for The Phoenix Valley Chamber of Commerce">
     <link rel="icon" href="images/site-logo.webp">
     <link href="css/base.css" rel="stylesheet">
@@ -42,7 +42,7 @@
                             <span class="line line3"></span>
                         </div>
                         <div class="logo">
-                            <h1>Home</h1>
+                            <h1>Contact</h1>
                         </div>
                         <div class="menu-items">
                             <ul><li><a href="index.html">Home</a></li>
@@ -55,39 +55,56 @@
                 </div>
             </nav>
         </header>
-        <main id="index">
-            <section class="hero-banner">
-                <picture>
-                    <source media="(max-width: 400px)" srcset="images/city-400.webp">
-                    <source media="(max-width: 500px)" srcset="images/city-500.webp">
-                    <source media="(max-width: 700px)" srcset="images/city-700.webp">
-                    <source media="(max-width: 800px)" srcset="images/city-800.webp">
-                    <source media="(max-width: 1000px)" srcset="images/city-1000.webp">
-                    <img src="images/city.webp" alt="picture of city" width = 1280 height = 856>
-                    <!-- https://pixabay.com/photos/city-urban-landscape-horizon-3325314/ -->
-                </picture>
-                <a href="#" class="join-invite">Join Our Chamber</a>
-            </section>
-            <section class="event">
-                <h2>Super Bowl LVII in 2023</h2>
-                <p>The Super Bowl returns to Phoenix! Enjoy activities, Fan Fest, and more. More details to be announced.</p>
-            </section>
-            <section class="ajax-section">
-                <h1 class="heading">Arizona Weather</h1>
-                <div class="container">
-                    <ul class="cities"></ul>
+        <main class="form">
+            <form method="get" action="thankyou.html" id="join">
+                <div class="test">
+                    <label for="firstname" class="required">First Name:</label>
+                    <span><input type="text" name="firstname" id="firstname" autofocus required></span>
+
+                    <label for="lastname" class="required">Last Name:</label>
+                    <span><input type="text" name="lastname" id="lastname" required></span>
+
+                    <label for="businesstitle">Business Position Title:</label>
+                    <span><input type="text" name="businesstitle" id="businesstitle" pattern="\D{7,}"></span>
+                    
+                    <label for="email" class="required">Email:</label>
+                    <span><input type="email" name="email" id="email" placeholder="Example: john@gmail.com" required></span>
+                    
+                    <label for="number" class="required">Phone Number:</label>
+                    <span><input type="tel" name="number" id="number" required></span>
+
+                    <label for="businessname" class="required">Business Name</label>
+                    <span><input type="text" name="businessname" id="businessname" required></span>
+                </div>    
+                <div class="membership">
+                    <p>Membership Level:</p>
+                    <label>
+                        <input type="radio" name="status" value="nonprofit">
+                        NP Membership is for non profit organizations (no fee)
+                    </label>
+                    <label>
+                        <input type="radio" name="status" value="bronze">
+                        Bronze Membership
+                    </label>
+                    <label>
+                        <input type="radio" name="status" value="silver">
+                        Silver Membership
+                    </label>
+                    <label>
+                        <input type="radio" name="status" value="gold">
+                        Gold Membership
+                    </label>
                 </div>
-            </section>
-            <section class="news">
-                <h2>News Release</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </section>
-            <section class="spotlighta">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/400.png?text=Spotlight+1" alt="placeholder"></a>
-            </section>
-            <section class="spotlightb">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/400.png?text=Spotlight+2" alt="placeholder"></a>
-            </section>
+                <label for="description" class="textarealabel">Business Description:</label> 
+                <textarea name="description" id="description" rows="3"></textarea>
+
+                <input type="hidden" name="formdate" id="formdate">
+
+
+                <input type="submit" value="Sign Up">
+                
+                
+            </form>
         </main>
         <footer>
             <section class="logo-footer">
@@ -109,13 +126,10 @@
                 <span>WDD230 Project | </span>
                 <span id="modified"></span>
             </section>
+            <p class="visits"></p>
         </footer>
     </div>
     <script src="js/designs.js"></script>
-    <script src="js/weather.js"></script>
-    <!-- <a href="https://livecodestream.dev/post/all-the-ways-you-can-vertically-center-content-in-css/"></a>
-    <a href="https://home.openweathermap.org/api_keys"></a>
-    <a href="https://codepen.io/tutsplus/details/gObLaEP"></a> -->
-
+    <script src="js/join.js"></script>
 </body>
 </html>
