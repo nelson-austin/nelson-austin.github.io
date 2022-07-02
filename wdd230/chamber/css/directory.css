@@ -8,8 +8,6 @@
     text-decoration: none;
     display: block;
 }
-
-
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -35,7 +33,7 @@
 }
 .grid section {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #eee;
+    background-color: #ffffff;
     padding: 25px;
     text-align: center;
 }
@@ -45,7 +43,6 @@
 }
 .menu {
 	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	text-align: center;
 }

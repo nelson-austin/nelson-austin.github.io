@@ -62,6 +62,7 @@ header h1 {
 main {
     background-color: #fff3d7;
     margin: 20px auto;
+    padding: 20px;
 }
 .hero-banner img {
     max-width: 100%;
@@ -187,6 +188,9 @@ input {
 form label.required::after {
     content: " *";
     color: red;
+}
+.error:not(:focus):invalid {
+    border: 2px solid red;
 }
 label input {
     display: inline;
