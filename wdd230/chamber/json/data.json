@@ -14,7 +14,7 @@
             "phonenumber": "800-262-5689",
             "websiteurl": "https://www.capitalone.com/",
             "icon": "images/capitalone-logo.png",
-            "membershiplevel": "Bronze"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Daniels Nicolson Insurance Agency",
@@ -30,7 +30,7 @@
             "phonenumber": "602-755-6398",
             "websiteurl": "https://ge-monogram-inc-repair.com/ge-monogram-appliance-repair-phoenix/",
             "icon": "images/ge-logo.png",
-            "membershiplevel": "Silver"
+            "membershiplevel": "Bronze"
         },
         {
             "name": "Charles Schwab",
@@ -44,7 +44,7 @@
             "name": "Nike",
             "address": "4250 W Anthem Way Suite 375, Phoenix, AZ",
             "phonenumber": "623-465-0111",
-            "websiteurl": "https://www.nike.com/retail/s/nike-factory-store-phoenix?cp=84620811901_seo_&y_source=1_NTQzNzUxNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+            "websiteurl": "https://www.nike.com/",
             "icon": "images/nike-logo.png",
             "membershiplevel": "Silver"
         },
@@ -52,7 +52,7 @@
             "name": "Target",
             "address": "5715 N 19th Ave, Phoenix, AZ",
             "phonenumber": "602-308-3604",
-            "websiteurl": "https://www.target.com/sl/phoenix-spectrum/2354",
+            "websiteurl": "https://www.target.com/",
             "icon": "images/target-logo.png",
             "membershiplevel": "Silver"
         },
@@ -60,7 +60,7 @@
             "name": "Verizon Communications",
             "address": "4811 N 16th St Ste 101, Phoenix, AZ",
             "phonenumber": "800-880-1077",
-            "websiteurl": "https://www.verizon.com/stores/details/arizona/phoenix/camelback-337989/?INTCMP=INT-LOS-NON-EN-MAKEAPPT-06212015-1LOS1-RE",
+            "websiteurl": "https://www.verizon.com/",
             "icon": "images/verizon-logo.png",
             "membershiplevel": "Gold"
         },
@@ -70,7 +70,7 @@
             "phonenumber": "602-955-3939",
             "websiteurl": "https://www.thenorthface.com/",
             "icon": "images/northface-logo.png",
-            "membershiplevel": "Bronze"
+            "membershiplevel": "Silver"
         }
     ]
 }

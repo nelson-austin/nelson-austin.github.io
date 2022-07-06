@@ -94,7 +94,63 @@ ul {
 .news {
     width: 100%;
 }
+/* SPOTLIGHT *
+------------------------------------------------- */
+@media only screen and (max-width: 699px) {
+    #index {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "hb hb"
+        "news news"
+        "ws a"
+        "ws b"
+        "event join";
+        width: 100%;
+    }
+    .spotlightc {
+        display: none;
+    }
+}
+#index {
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.event, .weather-section, .news, .spotlighta, .spotlightb, .spotlightc, .join{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
 
+}
+.spotlighta img, .spotlightb img, .spotlightc img {
+    max-width: 100px;
+    display: block;
+}
+.hero-banner {
+    grid-area: hb;
+}
+.event {
+    grid-area: event;
+}
+.weather-section {
+    grid-area: ws;
+}
+.join {
+    grid-area: join;
+}    
+.news {
+    grid-area: news;
+}
+.spotlighta {
+    grid-area: a;
+} 
+.spotlightb {
+    grid-area: b;
+}
+.spotlightc {
+    grid-area: c;
+}
 /* FOOTER */
 
 footer {
@@ -161,15 +217,15 @@ footer {
     display: block;
     margin-top: 10px;
 }
+.test {
+    padding-bottom: 20px;
+}
 .membership {
     padding-bottom: 20px;
 }
 .membership label {
     display: block;
     margin-top: 10px;
-}
-.membership p {
-    padding: 20px 0 0 0;
 }
 span {
     display: block;
@@ -200,4 +256,20 @@ label input {
 textarea {
     width: 100%;
     margin-bottom: 20px;
+}
+/* CONTACT PAGE 
+-----------------------------------------------*/
+
+label.textareamessage {
+    padding-top: 20px;
+}
+.visitus {
+    max-width: 600px;
+    padding: 1em;
+}
+.map {
+    max-width: 600px;
+}
+iframe {
+    max-width: 100%;
 }

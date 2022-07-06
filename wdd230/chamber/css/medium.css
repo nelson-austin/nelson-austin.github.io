@@ -27,21 +27,20 @@
     #index {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "hb hb"
+        "news news"
+        "ws a"
+        "ws b"
+        "event join";
         width: 100%;
     }
-    .hero-banner, .event, .ajax-section, .news, .spotlighta, .spotlightb{
-        text-align: center;
+    .spotlightc {
+        display: none;
     }
-    .hero-banner {
-        grid-column: 1/3;
-    }
-    .news {
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
-    .spotlighta, .spotlightb {
-        grid-row: 3/4;
-    }
+
+
+
     .brighten {
         max-width: 600px;
     }

@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phoenix Valley Chamber of Commerce</title>
+    <title>Message Sent! | Phoenix Valley Chamber of Commerce</title>
     <meta name="description" content="The website for The Phoenix Valley Chamber of Commerce">
     <link rel="icon" href="images/site-logo.webp">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/responsive-navbar.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
+
+    <style>
+        main h1 {
+            padding: 20px 0 200px 0;
+        }
+    </style>
 </head>
 <body>
     <div id="content">
@@ -42,7 +48,7 @@
                             <span class="line line3"></span>
                         </div>
                         <div class="logo">
-                            <h1>Home</h1>
+                            <h1>Message Sent!</h1>
                         </div>
                         <div class="menu-items">
                             <ul><li><a href="index.html">Home</a></li>
@@ -55,54 +61,8 @@
                 </div>
             </nav>
         </header>
-        <main id="index">
-            <section class="hero-banner">
-                <picture>
-                    <source media="(max-width: 400px)" srcset="images/city-400.webp">
-                    <source media="(max-width: 500px)" srcset="images/city-500.webp">
-                    <source media="(max-width: 700px)" srcset="images/city-700.webp">
-                    <source media="(max-width: 800px)" srcset="images/city-800.webp">
-                    <source media="(max-width: 1000px)" srcset="images/city-1000.webp">
-                    <img src="images/city.webp" alt="picture of city" width = 1280 height = 856>
-                    <!-- https://pixabay.com/photos/city-urban-landscape-horizon-3325314/ -->
-                </picture>
-                <a href="#" class="join-invite">Join Our Chamber</a>
-            </section>
-            <section class="event">
-                <h2>Super Bowl LVII in 2023</h2>
-                <p>The Super Bowl returns to Phoenix! Enjoy activities, Fan Fest, and more. More details to be announced.</p>
-            </section>
-            <section class="weather-section">
-                <h1 class="heading">Arizona Weather</h1>
-                <div class="container">
-                    <ul class="cities"></ul>
-                </div>
-            </section>
-            <section class="join">
-                <h1>JOIN US</h1>
-            </section>
-            <section class="news">
-                <h2>News Release</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </section>
-            <section class="spotlighta">
-                <h1 id="spotlightone"></h1>
-                <img id="imgone">
-                <a id="websiteone"></a>
-                <p id="phoneone"></p>
-            </section>
-            <section class="spotlightb">
-                <h1 id="spotlighttwo"></h1>
-                <img id="imgtwo">
-                <a id="websitetwo"></a>
-                <p id="phonetwo"></p>
-            </section>
-            <section class="spotlightc">
-                <h1 id="spotlightthree"></h1>
-                <img id="imgthree">
-                <a id="websitethree"></a>
-                <p id="phonethree"></p>
-            </section>
+        <main>
+            <h1>Your message has been successfully delivered! We will be responding at the email you provided within 1-2 business days.</h1>
         </main>
         <footer>
             <section class="logo-footer">
@@ -124,12 +84,9 @@
                 <span>WDD230 Project | </span>
                 <span id="modified"></span>
             </section>
+            <p class="visits"></p>
         </footer>
     </div>
     <script src="js/designs.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="js/spotlight.js"></script>
-    <!-- <a href="https://home.openweathermap.org/api_keys"></a>
-    <a href="https://codepen.io/tutsplus/details/gObLaEP"></a> -->
 </body>
 </html>
