@@ -72,14 +72,23 @@ main {
 .join-invite {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     transition: all 500ms;
     position: relative;
-    top: -100px;
+    top: -80px;
 }
 .join-invite:hover {
     font-weight: bolder;
+}
+/* JOIN BANNER 
+-------------------------------------------------*/
+.signup {
+    text-decoration: none;
+    color: #660708;
+}
+.signup:hover {
+    font-weight: bolder 
 }
 /* WEATHER *
 ------------------------------------------------- */
@@ -129,6 +138,7 @@ ul {
 }
 .hero-banner {
     grid-area: hb;
+    text-align: center;
 }
 .event {
     grid-area: event;
