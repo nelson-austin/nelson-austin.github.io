@@ -6,7 +6,6 @@ document.getElementById('formdate').value = when;
 const firstName = document.getElementById('firstname');
 const lastName = document.getElementById('lastname');
 const email = document.getElementById('email');
-const number = document.getElementById('number');
 const businessName = document.getElementById('businessname');
 
 
@@ -18,9 +17,6 @@ lastName.addEventListener('blur', () => {
 })
 email.addEventListener('blur', () => {
     email.classList.add('error');
-})
-number.addEventListener('blur', () => {
-    number.classList.add('error');
 })
 businessName.addEventListener('blur', () => {
     businessName.classList.add('error');
