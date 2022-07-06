@@ -33,11 +33,9 @@
         padding: 0;
         align-self: center;
     }
-    .logo-info {
+    .logo-info, .contact {
         text-align: left;
-    }
-    .contact {
-        text-align: left;
+        padding-top: 20px;
     }
     .general, .visits {
         grid-column: 1/4;
