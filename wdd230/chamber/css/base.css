@@ -64,6 +64,9 @@ main {
     margin: 20px auto;
     padding: 20px;
 }
+#index, #directory, #discover {
+    font-family: 'open sans';
+}
 .hero-banner img {
     max-width: 100%;
     overflow: hidden;
