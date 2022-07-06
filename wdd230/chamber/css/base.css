@@ -199,6 +199,12 @@ footer {
     text-align: center;
     padding: 20px 0 5px 0;
 }
+.general p a {
+    color: white;
+}
+.general p a:hover {
+    color: black;
+}
 /* DISCOVER PAGE
 -----------------------------------------*/
 .brighten picture img {
