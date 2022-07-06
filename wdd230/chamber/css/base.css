@@ -63,6 +63,7 @@ main {
     background-color: #fff3d7;
     margin: 20px auto;
     padding: 20px;
+    font-family: 'open sans';
 }
 .hero-banner img {
     max-width: 100%;
@@ -72,7 +73,7 @@ main {
 .join-invite {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     padding: 10px;
     transition: all 500ms;
     position: relative;
@@ -130,6 +131,8 @@ ul {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
+    background-color: white;
+    padding: 10px;
 
 }
 .spotlighta img, .spotlightb img, .spotlightc img {
