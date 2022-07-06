@@ -12,7 +12,7 @@
     .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        grid-template-rows: 235px 380px 370px;
+        grid-template-rows: 190px 265px 260px;
         grid-gap: 10px;
         align-items: flex-start;
     }
@@ -30,11 +30,11 @@
     text-align: center;
 }
 .grid section div a img {
-    width: 80%;
+    width: 40%;
     transition: transform .4s;
 }
 .grid section div a img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .grid section {
     border: 1px solid rgba(0, 0, 0, 0.1);
