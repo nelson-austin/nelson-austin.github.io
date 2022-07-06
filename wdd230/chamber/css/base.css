@@ -188,12 +188,11 @@ footer {
     text-align: center;
 }
 .contact a {
-    text-decoration: none;
     color: white;
     transition: all 500ms;
 }
 .contact a:hover {
-    font-weight: bolder;
+    color: black;
 }
 .general {
     text-align: center;
