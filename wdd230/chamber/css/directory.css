@@ -8,12 +8,14 @@
     text-decoration: none;
     display: block;
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: 235px 380px 370px;
-    grid-gap: 10px;
-    align-items: flex-start;
+@media only screen and (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-rows: 235px 380px 370px;
+        grid-gap: 10px;
+        align-items: flex-start;
+    }
 }
 .grid section {
     width: 100%;
