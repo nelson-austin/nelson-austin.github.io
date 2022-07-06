@@ -11,7 +11,7 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: 230px 380px 350px;
+    grid-template-rows: 235px 380px 370px;
     grid-gap: 10px;
     align-items: flex-start;
 }
