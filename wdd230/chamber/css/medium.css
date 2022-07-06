@@ -38,6 +38,12 @@
     .spotlightc {
         display: none;
     }
+    .visit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 600px;
+        padding-top: 20px;
+    }
 
 
 
