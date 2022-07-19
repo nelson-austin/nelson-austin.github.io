@@ -453,3 +453,21 @@ input:valid {
 .contact-form a:hover {
     color: black;
 }
+/* SERVICES PAGE DESIGNS
+----------------------------------------------------------------*/
+#services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin: 30px;
+}
+.questions a {
+    color: black;
+}
+.questions a:hover {
+    color: #335c67;
+}
+.questions {
+    grid-column: 1/3;
+    text-align: center;
+}
