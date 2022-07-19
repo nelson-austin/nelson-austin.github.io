@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservation | Temple Inn & Suites</title>
+    <title>Success | Temple Inn & Suites</title>
     <meta name="description" content="The Website for the Temple Inn & Suites.">
     <link rel="icon" href="images/logo.webp">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans&family=PT+Serif&display=swap" rel="stylesheet">
+    <style>
+        main h1 {
+            padding: 20px 0 200px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -32,7 +37,7 @@
                 <span class="line line3"></span>
             </div>
             <div class="logo">
-                <h1>Reservation</h1>
+                <h1>Success!</h1>
             </div>
             <div class="menu-items">
                 <ul>
@@ -45,62 +50,7 @@
         </nav>
     </header>
     <main>
-        <div class="reservation-heading">
-        <h1>Make a Reservation With Us:</h1></div>
-        <form method="get" action="success.html" id="reservation">
-            <div class="form-group">
-                <input class="form-control" type="text" name="firstname" id="firstname" autofocus required placeholder="text">
-                <label for="firstname" class="required form-label">First Name:</label>
-            </div>
-
-            <div class="form-group">
-                <input class="form-control" type="text" name="lastname" id="lastname" required placeholder="text">
-                <label for="lastname" class="required form-label">Last Name:</label>
-            </div>  
-
-            <div class="form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="text" required>
-                <label for="email" class="required form-label">Email:</label>
-            </div>
-                
-            <div class="form-group">
-                <input class="form-control" type="tel" name="number" id="number" placeholder="text" required pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
-                <label for="number" class="required form-label">Phone Number:</label>
-            </div>
-
-            <div class="form-group">
-                <input class="form-control" type="text" name="location" id="location" required placeholder="text">
-                <label for="location" class="required form-label">Hotel Location:</label>
-            </div>
-
-            <div class="rooms">
-                <label for="roomnumber" class="required">Number of rooms:</label>
-                <input type="text" name="roomnumber" id="roomnumber" required pattern="[1-9]">
-                
-
-                <label for room-type class="required">Room type:</label>
-                <input class="drop-down" list="room-type" name="room-type" required placeholder="select one ▼">
-                <datalist id="room-type">
-                    <option value="single"></option>
-                    <option value="twin"></option>
-                    <option value="double"></option>
-                    <option value="triple"></option>
-                    <option value="quad"></option>
-                </datalist>
-            
-            </div>
-            
-            <label for="date" class="required">Reservation date</label>
-            <span><input type="date" name="date" id="date" required></span>
-            
-            <div class="accomodations">
-                <label for="accomodations">Comments or special accomodations:</label> 
-                <textarea name="accomodations" id="accomodations" rows="3"></textarea>
-            </div>
-
-            <input class="submit" type="submit" value="Make My Reservation">
-            
-        </form>
+        <h1>Your form has been successfully submitted! Thank you!</h1>
     </main>
     <footer>
         <section class="logo-footer">
@@ -111,7 +61,7 @@
             <a href="https://goo.gl/maps/fbnZqFyvRve2iyHs9" target="_blank"><p>4800 Montogomery Ln #300,</p>
             <p>Bethesda, Maryland 20814</p></a>
         </section>
-        <section class="contact">
+        <section id="contact-us">
             <p>info@temple-inn-&-suites.org</p>
             <p>(602) 359-2800</p>
         </section>
@@ -122,8 +72,6 @@
             <p>weather data provided by <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
         </section>
     </footer>
-    <script src="js/slideshow.js"></script>
-    <script src="js/weather.js"></script>
     <script src="js/general.js"></script>
 </body>
 </html>
