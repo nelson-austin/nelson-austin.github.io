@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.2rem;
 }
 main {
     margin: 20px;
+    font-family: 'PT Serif';
 }
 @media only screen and (max-width: 499px) {
     nav {
@@ -136,7 +138,11 @@ main {
     grid-template-columns: 200px 1fr;
     text-align: center;
     align-items: center;
-    font-size: 2rem;
+}
+.site-name h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 5rem;
+    font-weight: 500;
 }
 .site-name a:nth-child(1) {
     grid-column: 1/3;
@@ -146,6 +152,8 @@ main {
     text-align: end;
     background-color: #E87121;
     color: white;
+    font-size: 1.7rem;
+    font-family: 'Fira Sans';
 }
 .site-name a:nth-child(1):hover {
     color: black;
@@ -159,8 +167,9 @@ nav ul li a {
 nav {
     background-color: #335c67;
     width: 100%;
-    font-family: 'architects daughter';
     text-align: center;
+    font-family: 'Fira Sans';
+    font-size: 2rem;
 }
 /* SLIDESHOWS FOR HOME PAGE
 ----------------------------------------------------------------------------------*/
@@ -282,6 +291,12 @@ footer {
     padding: 20px;
     text-align: center;
 }
+footer:not(.name-footer) {
+    font-family: 'Fira Sans';
+}
+.name-footer {
+    font-family: 'Courgette', cursive;
+}
 .general {
     text-align: center;
 }
@@ -290,6 +305,34 @@ footer a {
 }
 footer a:hover {
     color: black;
+}
+
+/* TEMPLES PAGE
+------------------------------------------------------------------*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 40px;
+    margin: 20px 0 50px 0;
+}
+.grid section h1 {
+    font-size: 1.7rem;
+}
+.grid section a {
+    color: black;
+}
+.grid section a:hover {
+    color: #335c67;
+}
+.temple-page-heading {
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+.grid section ul {
+    list-style-position: inside;
+}
+.grid section img {
+    width: 100%;
 }
 
 
