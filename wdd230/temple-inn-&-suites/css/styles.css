@@ -159,7 +159,7 @@ main {
     font-size: 1.7rem;
     font-family: 'Fira Sans';
 }
-.site-name a:nth-child(1):hover {
+.make-reservation:hover {
     color: black;
 }
 nav ul li {
