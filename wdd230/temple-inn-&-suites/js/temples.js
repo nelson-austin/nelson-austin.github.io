@@ -21,6 +21,7 @@ fetch(file)
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
+    let p4 = document.createElement('p');
     let ul = document.createElement('ul');
     let li1 = document.createElement('li');
     let li2 = document.createElement('li');
@@ -37,7 +38,7 @@ fetch(file)
     p1.textContent = `Address: ${temple.address}`;
     p2.textContent = `${temple.city}`;
     p3.textContent = `Phone Number: ${temple.phonenumber}`;
-    ul.textContent = `Milestones:`;
+    p4.textContent = `Milestones:`;
     li1.textContent = `${temple.announced} - Announced`;
     li2.textContent = `${temple.groundbreaking} - Groundbreaking`;
     li3.textContent = `${temple.dedication} - Dedicated`;
@@ -54,6 +55,7 @@ fetch(file)
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
+    card.appendChild(p4);
     card.appendChild(ul);
     ul.appendChild(li1);
     ul.appendChild(li2);
