@@ -16,7 +16,7 @@
     <header>
         <div class="site-name">
             <a href="make-a-reservation.html">New Reservation</a>
-            <a href="index.html"><img src="images/logo.webp" alt="logo" width="150" height="150"></a>
+            <a href="index.html"><img src="images/logo.webp" alt="logo" width="250" height="250"></a>
             <h1>Temple Inn & Suites</h1>
         </div>
         <nav>
@@ -40,41 +40,44 @@
         </nav>
     </header>
     <main>
-       
-        <h1>We are here to answer your questions!</h1>
-        <h2>Send us a message</h2>
-        <form method="get" action="thankyou.html" id="reservation">
-            <div class="form-group">
-                <input class="form-control" type="text" name="firstname" id="firstname" autofocus required placeholder="text">
-                <label for="firstname" class="required form-label">First Name:</label>
-            </div>
+        <div class="contact-form">
+            <h1>We are here to answer your questions!</h1>
+            <h2 class="send">Send us a message:</h2>
+            <form method="get" action="thankyou.html" id="reservation">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="firstname" id="firstname" autofocus required placeholder="text">
+                    <label for="firstname" class="required form-label">First Name:</label>
+                </div>
 
-            <div class="form-group">
-                <input class="form-control" type="text" name="lastname" id="lastname" required placeholder="text">
-                <label for="lastname" class="required form-label">Last Name:</label>
-            </div>  
+                <div class="form-group">
+                    <input class="form-control" type="text" name="lastname" id="lastname" required placeholder="text">
+                    <label for="lastname" class="required form-label">Last Name:</label>
+                </div>  
 
-            <div class="form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="text" required>
-                <label for="email" class="required form-label">Email:</label>
-            </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" name="email" id="email" placeholder="text" required>
+                    <label for="email" class="required form-label">Email:</label>
+                </div>
+                    
+                <div class="form-group">
+                    <input class="form-control" type="tel" name="number" id="number" placeholder="text" required pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
+                    <label for="number" class="required form-label">Phone Number:</label>
+                </div>
+
+                <div class="accomodations">
+                    <label for="accomodations">Message:</label> 
+                    <textarea name="accomodations" id="accomodations" rows="3"></textarea>
+                </div>
+
+                <input class="submit" type="submit" value="Send Message">
+
                 
-            <div class="form-group">
-                <input class="form-control" type="tel" name="number" id="number" placeholder="text" required pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
-                <label for="number" class="required form-label">Phone Number:</label>
-            </div>
-
-            <div class="accomodations">
-                <label for="accomodations">Message:</label> 
-                <textarea name="accomodations" id="accomodations" rows="3"></textarea>
-            </div>
-
-            <input class="submit" type="submit" value="Send Message">
-            
-        </form>
-        <h1>Other contact options:</h1>
-        <p>Give us a call at (602) 359-2800</p>
-        <p>Or visit us at </p>
+            </form>
+            <h2>Or give us a call:</h2>
+            <p>(602) 359-2800</p>
+            <h2>Or start a new reservation!</h2>
+            <a href="make-a-reservation.html">New Reservation</a>
+        </div>
     </main>
     <footer>
         <section class="logo-footer">
