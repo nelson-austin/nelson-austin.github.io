@@ -1,0 +1,49 @@
+{
+    "temples": [
+        {
+            "name": "Aba Nigeria Temple",
+            "address": "72-80 Okpu-Umuobo Rd Aba",
+            "city": "Abia State, Nigeria",
+            "phonenumber": "(234) 80-3903-4810",
+            "announced": "2 April 2000",
+            "groundbreaking": "23 February 2002",
+            "dedication": "7 August 2005",
+            "schedule": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng",
+            "img": "images/aba-nigeria-temple.jpg"
+        },
+        {
+            "name": "Accra Ghana Temple",
+            "address": "Accra Ghana Temple Complex 57 Independence Ave, North Ridge",
+            "city": "P.M.B. CT 209, Cantonments, Accra, Ghana",
+            "phonenumber": "(233) 302-650-123",
+            "announced": "16 February 1998",
+            "groundbreaking": "16 November 2001",
+            "dedication": "11 January 2004",
+            "schedule": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng",
+            "img": "images/accra-ghana-temple.jpg"
+        },
+        {
+            "name": "Durban South Africa Temple",
+            "address": "2 Izinga Drive Izinga Ridge",
+            "city": "Umhlanga, KwaZulu-Natal, 4021, South Africa",
+            "phonenumber": "(27) 31-140-0240",
+            "announced": "1 October 2011",
+            "groundbreaking": "9 April 2016",
+            "dedication": "16 February 2020",
+            "schedule": "https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng",
+            "img": "images/durban-south-africa-temple.jpg"
+        },
+        {
+            "name": "Johannesburg South Africa Temple",
+            "address": "7 Jubilee Rd Parktown",
+            "city": "Johannesburg, 2193, South, Africa",
+            "phonenumber": "(27) 11-645-1540",
+            "announced": "1 April 1981",
+            "groundbreaking": "27 November 1982",
+            "dedication": "24 August 1985",
+            "schedule": "https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple?lang=eng",
+            "img": "images/johannesburg-south-africa-temple.jpg"
+        }
+    ]
+}
+

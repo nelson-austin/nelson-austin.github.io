@@ -5,23 +5,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
+        <div class="site-name">
+            <a href="make-a-reservation.html">New Reservation</a>
+            <a href="index.html"><img src="images/logo.webp" alt="logo" width="150" height="150"></a>
+            <h1>Temple Inn & Suites</h1>
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="temples.html">Temples</a></li>
-                <li><a href="make-a-reservation.html">Reservations</a></li>
-                <li><a href="services.html">Services</a></li>
-            </ul>
+            <input class="checkbox" type="checkbox" id="input">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <div class="logo">
+                <h1>Home</h1>
+            </div>
+            <div class="menu-items">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-
+        <section>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/hotel1.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/hotel4.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/hotel3.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+        </section>
+        <section class="amenities">
+            <h1>Free Amenities</h1>
+            <ul>
+                <li>Free breakfast</li>
+                <li>Exercise/workout room</li>
+                <li>Indoor pool</li>
+                <li>WiFi high-speed internet access and smart TVs</li>
+                <li>Parking</li>
+                <li>Temple shuttle</li>
+                <li>Family history consultation and family ordinance card service...</li>
+            </ul>
+            <a href="services.html">see full list of amenities</a>
+        </section>
+        <section class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">
+                <div class="day1 day-title">Current Weather</div>
+                <img src="#" alt="#" id="weather-icon1" width="100" height="85">
+                <p id="temp1"><span id="current-temp1"></span> &deg;F</p> <br>
+                <figure>
+                    <figcaption id="figcaption1"></figcaption>
+                </figure>
+                <p>Humidity <span id="humidity1"></span> %</p>
+                <p>Wind Speed <span id="wind-speed1"></span> m/s</p>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day2 day-title"></div>
+                <img src="#" alt="#" id="weather-icon2" width="100" height="85">
+                <p id="temp1"><span id="current-temp2"></span> &deg;F</p> <br>
+                <figure>
+                    <figcaption id="figcaption2"></figcaption>
+                </figure>
+                <p>Humidity <span id="humidity2"></span> %</p>
+                <p>Wind Speed <span id="wind-speed2"></span> m/s</p>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day3 day-title"></div>
+                <img src="#" alt="#" id="weather-icon3" width="100" height="85">
+                <p id="temp1"><span id="current-temp3"></span> &deg;F</p> <br>
+                <figure>
+                    <figcaption id="figcaption3"></figcaption>
+                </figure>
+                <p>Humidity <span id="humidity3"></span> %</p>
+                <p>Wind Speed <span id="wind-speed3"></span> m/s</p>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day4 day-title"></div>
+                <img src="#" alt="#" id="weather-icon4" width="100" height="85">
+                <p id="temp1"><span id="current-temp4"></span> &deg;F</p> <br>
+                <figure>
+                    <figcaption id="figcaption4"></figcaption>
+                </figure>
+                <p>Humidity <span id="humidity4"></span> %</p>
+                <p>Wind Speed <span id="wind-speed4"></span> m/s</p>
+            </div>
+        </section>
+        <section class="featured-temple">
+            <h1 class="featured-heading">Featured Temple of the Week</h1>
+            <div class="featured-temple-description">
+                <h1>Madrid Spain Temple</h1>
+                <p>Calle Del Templo No 2 Madrid</p>
+                <p>28038 Madrid, Spain</p>
+                <p>(34) 91-214-2607</p>
+                <h2>Milestones:</h2>
+                <ul><li>4 April 1993 - Announced</li>
+                <li>11 June 1996 - Groundbreaking</li>
+                <li>19 March 1999 - Dedicated</li></ul>
+                <a href="temples.html">Find us here and many other locations worldwide!</a>
+            </div>
+            <div class="slideshow-container">
+                <div class="featuredSlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/spain-temple-medium(1).jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="featuredSlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/spain-temple-medium(2).jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="featuredSlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/spain-temple-medium(3).jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <section class="logo-footer">
+            <img src="images/logo.webp" alt="Site Logo" width = 100 height = 100>
+        </section>
+        <section class="logo-info">
+            <h1>Temple Inn & Suites</h1>
+            <a href="https://goo.gl/maps/fbnZqFyvRve2iyHs9" target="_blank"><p>4800 Montogomery Ln #300,</p>
+            <p>Bethesda, Maryland 20814</p></a>
+        </section>
+        <section id="contact-us">
+            <p>info@temple-inn-&-suites.org</p>
+            <p>(602) 359-2800</p>
+        </section>
+        <section class="general">
+            <span>&copy;<span id="year"></span> Final Project | </span>
+            <span>Austin Nelson | </span>
+            <span>WDD230</span>
+            <p>weather data provided by <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
+        </section>
     </footer>
+    <script src="js/slideshow.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/general.js"></script>
 </body>
 </html>
