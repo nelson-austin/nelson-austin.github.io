@@ -1,0 +1,28 @@
+
+  
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    15% {
+      transform: rotate(0);
+    }
+    20% {
+      transform: rotate(20deg);
+    }
+    30% {
+      transform: rotate(20deg);
+    }
+    45% {
+      transform: rotate(-35deg);
+    }
+    55% {
+      transform: rotate(-35deg);
+    }
+
+ 
+    100% {
+        transform: rotate(360deg);
+    }
+  }
